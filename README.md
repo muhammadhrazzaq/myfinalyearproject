@@ -17,7 +17,14 @@ I used yolov5s to train my model on custom data. In order to run the training co
 ## Installation Process
 
 **To Run the API You Have To Install libraires through Requirements.txt by following command**
-**First Create the virtual Environment If you don't have virtualenv library installed on your system please [Click to Go to virtalenv installation guide](https://pypi.org/project/virtualenv/)** 
+**First Create the virtual Environment If you don't have virtualenv library installed on your system please [Click to Go to virtalenv installation guide](https://pypi.org/project/virtualenv/)**
+* Activate your created environment
+* Run pip command to install libraries **pip install -r ./requirements.txt**
+* To run the fastapi server run **uvicorn main:app --reload --host 0.0.0.0 --port 8000** if this command gives you an error please try to run with 
+  **python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000**
+* Go
+
+
 
 
      
